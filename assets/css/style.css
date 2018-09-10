@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    background-image: url(../images/Graffiti_wall_background-by-kpucu.jpg);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: black;
+}
+
+.bear-card1 {
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    width: 160px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(212, 224, 238);
+}
+
+.bear-card2 {
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    width: 160px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(229, 222, 243);
+}
+
+.bear-card1:hover{
+    box-shadow: 5px 10px 18px blue;
+}
+
+.bear-card2:hover{
+    box-shadow: 5px 10px 18px purple;
+}
+.cop-card {
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 160px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#smallVS {
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+#select-bear {
+    margin-left: 160px;
+    font-family: cursive;
+    font-size: xx-large;
+    color: azure;
+}
+
+#card-container {
+    height: 200px;
+    width: 100%;
+}
+
+#card-container-hide {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+#fight-stage {
+    opacity: 0;
+    transition: opacity 2s;
+}
+ 
+#bear1A img {
+    height: 500px;
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s;
+    
+}
+
+#bear2A img {
+    height: 500px;
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 2s;
+    
+}
+
+#fightImg img {
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-top: 250px;  
+    margin-left: 650px;
+    background-color: orange;
+}
+
+#fightImg img:hover {
+    box-shadow: 0 0 30px #FF0000;
+}
+
+#copsFight img {
+    height: 500px;
+    width: 600px;
+    float: left;
+    margin-top: 70px;     
+}
+
+#bearHp {
+    background-color: #FF0000;
+}
+
+#actBar {
+    float: left;
+}
+
+#action {
+    float: left;
+    height: 70px;
+    width: 400px;
+    background-color: aliceblue;
+    margin-left: 100px;
+}
+.hpBox {
+    float: left;
+    height: 70px;
+    width: 200px;
+    background-color: aliceblue;
+    margin-left: 100px;
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.progress {
+    margin-top: 10px;
+}
+
+#bearAttBar {
+    float: left;
+    position: relative
+}
+
+#copAttBar {
+    float: right;
+    position: relative;
+}
+
+.attBar {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 12px;
+}
+
+#displayBearAtt {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #FF0000;
+}
+
+#displayCopAtt {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    color: blue;
+}

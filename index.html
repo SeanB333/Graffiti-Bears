@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Graffiti-Bears</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-white h1">Graffiti-Bears</a>
+    </nav>
+
+    <div id="card-container">
+        <div id="card-container-hide">
+            <div id="select-bear">Select Bear</div>
+            <div id="bear1" class="bear-card1">
+                <img src="./assets/images/graffitiBear.png" height="100px" width="150px">
+
+            </div>
+            <div id="bear2" class="bear-card2">
+                <img src="./assets/images/graffitiBear2.png" height="100px" width="150px">
+
+            </div>
+            <div id="smallVS">
+                <img src="./assets/images/VS.png" alt="Versus" height="100px" width="100px">
+            </div>
+            <div class="cop-card bg-light">
+                <img src="./assets/images/graffitiCop.png" height="100px" width="150px">
+
+            </div>
+            <div class="cop-card bg-light">
+                <img src="./assets/images/graffitiCop.png" height="100px" width="150px">
+
+            </div>
+            <div class="cop-card bg-light">
+                <img src="./assets/images/graffitiCop.png" height="100px" width="150px">
+
+            </div>
+        </div>
+    </div>
+    <div id="fight-stage">
+        <div id="bear1A">
+            <img src="./assets/images/graffitiBear.png" alt="">
+           </div> 
+            <div id="bear2A">
+                <img src="./assets/images/graffitiBear2.png">
+            </div>
+        
+        <div id="fightImg">
+            <img src="./assets/images/FIGHT!.png" alt="">
+        </div>
+        <div id="copsFight">
+            <img src="assets/images/graffitiCop.png" alt="">
+        </div>
+    </div>
+    <div class="footer text-white fixed-bottom p-3">
+        <div id="actBar">
+            <h2>Action bar</h2>
+        </div>
+        <div class="hpBox text-dark rounded">Health
+            <div class="progress">
+                <div id="bearHp" class="progress-bar" style="width:100%">100%</div>
+            </div>
+        </div>
+        <div id="action" class="rounded text-dark">
+            <div id="bearAttBar" class="attBar">Bear Attacks For : <span id="displayBearAtt"></span></div>
+            <div id="copAttBar" class="attBar"><span id="displayCopAtt"></span> : Cops Attack For</div>
+        </div>
+        <div class="hpBox text-dark rounded">Health
+            <div class="progress">
+                <div id="copHp" class="progress-bar" style="width:100%">100%</div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="./assets/javascript/main.js"></script>
+</body>
+
+</html>
